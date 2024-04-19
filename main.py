@@ -14,9 +14,9 @@ while True:
       print('Last name:')
       last_name = input('')
       print('email:')
-  email = input('')
-  print('Age:')
-  age = input('')
+      email = input('')
+      print('Age:')
+      age = input('')
   if age < "18":
     print("you can't create an acount on your own but you can create a personal acount under your parent or gardian acount")
     print('Please navigate back to the log in page with your parent or gardian to make a joint acount under their name')
